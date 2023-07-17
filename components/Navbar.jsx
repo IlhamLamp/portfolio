@@ -30,7 +30,7 @@ const Navbar = () => {
     window.addEventListener('scroll', handleShadow)
   }, [])
 
-  // set toggle local storage
+  // set toggle theme
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const storedTheme = localStorage.getItem("theme")
@@ -38,11 +38,17 @@ const Navbar = () => {
     }
   }, [])
 
-  const toggleTheme = () => {
+  const toggleThemeDesktop = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
   };
+
+  const toggleThemePhone = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme)
+  }
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
@@ -87,13 +93,13 @@ const Navbar = () => {
               </Link>
             </div>
             <div className='mx-4'>
-              <ToggleTheme theme={theme} toggleTheme={toggleTheme}/>
+              <ToggleTheme id={toggleThemeDesktop} theme={theme} toggleTheme={toggleThemeDesktop}/>
             </div>
           </ul>
 
           {/* Mode Device */}
           <div className='md:hidden flex gap-3'>
-            <ToggleTheme theme={theme} toggleTheme={toggleTheme}/>
+            <ToggleTheme id={toggleThemePhone} theme={theme} toggleTheme={toggleThemePhone}/>
             <div onClick={handleNav} className=''>
               <AiOutlineMenu size={25}/>
             </div>

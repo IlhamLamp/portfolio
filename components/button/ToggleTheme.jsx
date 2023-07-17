@@ -1,13 +1,12 @@
 import React from 'react'
 
-const ToggleTheme = ({theme, toggleTheme}) => {
+const ToggleTheme = ({id, theme, toggleTheme}) => {
   return (
-    <label htmlFor='toggleTheme' className="swap swap-rotate">
+    <label htmlFor={id} className="swap swap-rotate">
         {/* this hidden checkbox controls the state */}
         <input
             type="checkbox"
-            id="toggleTheme"
-            // id={id}
+            id={id}
             checked={theme === "dark"}
             onChange={toggleTheme}
         />
