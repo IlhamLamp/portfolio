@@ -14,6 +14,8 @@ module.exports = {
         'whiteSec': '#aebbc0',
         'primary': '#09d0ac',
         'secondary': '#35a29f',
+        'tertiary': '#27e1c1',
+        'light': '#50cb93',
         'cursor': '#97feed',        
       },
       backgroundImage: {
