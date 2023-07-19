@@ -13,6 +13,7 @@ module.exports = {
         'white': '#edf0f1',
         'whiteSec': '#aebbc0',
         'primary': '#09d0ac',
+        'secondary': '#35a29f',
         'cursor': '#97feed',        
       },
       backgroundImage: {

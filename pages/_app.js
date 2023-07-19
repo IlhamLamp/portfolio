@@ -3,10 +3,10 @@ import '../styles/global.css'
 
 function MyApp({Component, pageProps}) {
     return (
-        <>
+        <div>
             <Navbar/>
             <Component {...pageProps}/>
-        </>
+        </div>
     )
 }
 

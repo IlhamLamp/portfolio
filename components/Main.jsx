@@ -19,21 +19,21 @@ const Main = () => {
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-whiteSec'>
-                    LET'S BUILD SOMETHING TOGETHER
+                    LET&apos;S BUILD SOMETHING TOGETHER
                 </p>
                 <h1 className='py-4'>
-                    Hi, I'm <span className='text-primary textShadow'> Ilham</span>
+                    Hi, I&apos;m <span className='text-primary textShadow'> Ilham</span>
                 </h1>
                 <Typewriter
                     options={{
-                        strings: roles.map((role) => `<span class="text-3xl">${role}</span>`),
+                        strings: roles.map((role) => `<span class="text-3xl text-white whiteShadow">${role}</span>`),
                         autoStart: true,
                         loop: true,
                         cursor: `<span class="text-3xl text-cursor">|</span>`,
                     }}
                 />
                 <p className='py-4 text-whiteSec sm:max-w-[70%] m-auto'>
-                    I’m focused on building responsive front-end web applications
+                    I&apos;m focused on building responsive front-end web applications
                     integrating back-end technologies.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>

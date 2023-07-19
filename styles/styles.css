@@ -1,3 +1,7 @@
 .textShadow {
     text-shadow: 1px 1px 1.5px rgb(9, 208, 172), 0 0 0.1em #09d0ac;
-  }
+}
+
+.whiteShadow {
+  text-shadow: 1px 1px 1.5px rgb(237, 240, 241), 0 0 0.1em #edf0f1;
+}

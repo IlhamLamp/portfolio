@@ -9,7 +9,7 @@ import NavLogo from '../public/assets/navLogo.png'
 
 
 const Navbar = () => {
-  const [theme, setTheme] = useState("light")
+  // const [theme, setTheme] = useState("light")
   const [nav, setNav] = useState(false)
   const [shadow, setShadow] = useState(false)
 
@@ -62,7 +62,7 @@ const Navbar = () => {
     <div
       className= {
         shadow 
-          ? 'fixed w-full h-20 bg-[#ecf0f3] shadow-xl z-[100]' 
+          ? 'fixed w-full h-20 backdrop-blur-sm bg-bg/70 shadow-xl z-[100]' 
           : 'fixed w-full h-20 z-[100]'
       }
     >
@@ -81,19 +81,19 @@ const Navbar = () => {
           <ul className='hidden md:flex'>
             <div className='flex'>
               <Link href='/'>
-                <li className='ml-10 text-sm hover:border-b'>Home</li>
+                <li className='mx-5 text-sm hover:border-b'>Home</li>
               </Link>
               <Link href='/#about'>
-                <li className='ml-10 text-sm hover:border-b'>About</li>
+                <li className='mx-5 text-sm hover:border-b'>About</li>
               </Link>
               <Link href='/#skills'>
-                <li className='ml-10 text-sm hover:border-b'>Skils</li>
+                <li className='mx-5 text-sm hover:border-b'>Skils</li>
               </Link>
               <Link href='/#projects'>
-                <li className='ml-10 text-sm hover:border-b '>Projects</li>
+                <li className='mx-5 text-sm hover:border-b '>Projects</li>
               </Link>
               <Link href='/#contact'>
-                <li className='ml-10 text-sm hover:border-b'>Contacts</li>
+                <li className='mx-5 text-sm hover:border-b'>Contacts</li>
               </Link>
             </div>
             {/* Desktop Dark Toggle */}
