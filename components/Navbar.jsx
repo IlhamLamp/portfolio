@@ -5,12 +5,11 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import NavLogo from '../public/assets/navLogo.png'
-import ToggleTheme from './button/ToggleTheme'
+// import ToggleTheme from './button/ToggleTheme'
 
 
 const Navbar = () => {
   const [theme, setTheme] = useState("light")
-  // const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light")
   const [nav, setNav] = useState(false)
   const [shadow, setShadow] = useState(false)
 
@@ -30,29 +29,34 @@ const Navbar = () => {
     window.addEventListener('scroll', handleShadow)
   }, [])
 
-  // set toggle theme
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const storedTheme = localStorage.getItem("theme")
-      setTheme(storedTheme ? storedTheme : "light")
-    }
-  }, [])
+  // -- set toggle theme --
+  // useEffect(() => {
+  //   if (typeof window !== 'undefined') {
+  //     const storedTheme = localStorage.getItem("theme")
+  //     if (storedTheme) {
+  //       setTheme(storedTheme)
+  //       document.documentElement.setAttribute("data-theme", storedTheme)
+  //     } else {
+  //       localStorage.removeItem("theme")
+  //     }
+  //   }
+  // }, [])
 
-  const toggleThemeDesktop = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-    localStorage.setItem("theme", newTheme);
-  };
+  // -- DESKTOP --
+  // const toggleThemeDesktop = () => {
+  //   const newTheme = theme === "light" ? "dark" : "light";
+  //   setTheme(newTheme);
+  //   localStorage.setItem("theme", newTheme);
+  //   document.documentElement.setAttribute("data-theme", newTheme)
+  // };
 
-  const toggleThemePhone = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-    localStorage.setItem("theme", newTheme)
-  }
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-  }, [theme]);
+  // -- PHONE --
+  // const toggleThemePhone = () => {
+  //   const newTheme = theme === "light" ? "dark" : "light";
+  //   setTheme(newTheme);
+  //   localStorage.setItem("theme", newTheme);
+  //   document.documentElement.setAttribute("data-theme", newTheme)
+  // }
 
   return (
     <div
@@ -86,20 +90,21 @@ const Navbar = () => {
                 <li className='ml-10 text-sm hover:border-b'>Skils</li>
               </Link>
               <Link href='/#projects'>
-                <li className='ml-10 text-sm hover:border-b'>Projects</li>
+                <li className='ml-10 text-sm hover:border-b '>Projects</li>
               </Link>
               <Link href='/#contact'>
                 <li className='ml-10 text-sm hover:border-b'>Contacts</li>
               </Link>
             </div>
-            <div className='mx-4'>
-              <ToggleTheme id={toggleThemeDesktop} theme={theme} toggleTheme={toggleThemeDesktop}/>
-            </div>
+            {/* Desktop Dark Toggle */}
+            {/* <div className='mx-4'>
+              <ToggleTheme id="toggleThemeDesktop" theme={theme} toggleTheme={toggleThemeDesktop}/>
+            </div> */}
           </ul>
 
-          {/* Mode Device */}
+          {/* Phone Dark Toggle */}
           <div className='md:hidden flex gap-3'>
-            <ToggleTheme id={toggleThemePhone} theme={theme} toggleTheme={toggleThemePhone}/>
+            {/* <ToggleTheme id="toggleThemePhone" theme={theme} toggleTheme={toggleThemePhone}/> */}
             <div onClick={handleNav} className=''>
               <AiOutlineMenu size={25}/>
             </div>

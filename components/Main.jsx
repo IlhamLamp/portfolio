@@ -21,7 +21,7 @@ const Main = () => {
                     LET&#39;S BUILD SOMETHING TOGETHER
                 </p>
                 <h1 className='py-4 text-gray-700'>
-                    Hi, I&#39;m <span className='  text-[#5651e5]'> Ilham</span>
+                    Hi, I&#39;m <span className='text-[#5651e5]'> Ilham</span>
                 </h1>
                 {/* <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1> */}
                 <Typewriter
