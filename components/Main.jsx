@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect'
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import '../styles/styles.css'
 
 const Main = () => {
 
@@ -17,37 +18,36 @@ const Main = () => {
     <div id='main' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>
-                    LET&#39;S BUILD SOMETHING TOGETHER
+                <p className='uppercase text-sm tracking-widest text-whiteSec'>
+                    LET'S BUILD SOMETHING TOGETHER
                 </p>
-                <h1 className='py-4 text-gray-700'>
-                    Hi, I&#39;m <span className='text-[#5651e5]'> Ilham</span>
+                <h1 className='py-4'>
+                    Hi, I'm <span className='text-primary textShadow'> Ilham</span>
                 </h1>
-                {/* <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1> */}
                 <Typewriter
                     options={{
-                        strings: roles.map((role) => `<span className="py-2 text-gray-800">${role}</span>`),
+                        strings: roles.map((role) => `<span class="text-3xl">${role}</span>`),
                         autoStart: true,
                         loop: true,
-                        cursor: "<span style='font-size : 2rem;'>|</span>",
+                        cursor: `<span class="text-3xl text-cursor">|</span>`,
                     }}
                 />
-                <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
+                <p className='py-4 text-whiteSec sm:max-w-[70%] m-auto'>
                     I’m focused on building responsive front-end web applications
                     integrating back-end technologies.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaLinkedinIn />
+                    <div className='rounded-full shadow-lg bg-slate-50 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150 hover:shadow-none'>
+                        <FaLinkedinIn className='text-bg'/>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaGithub />
+                    <div className='rounded-full shadow-lg bg-slate-50 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150 hover:shadow-none'>
+                        <FaGithub className='text-bg'/>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail/>
+                    <div className='rounded-full shadow-lg bg-slate-50 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150 hover:shadow-none'>
+                        <AiOutlineMail className='text-bg'/>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill/>
+                    <div className='rounded-full shadow-lg bg-slate-50 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150 hover:shadow-none'>
+                        <BsFillPersonLinesFill className='text-bg'/>
                     </div>
               </div>
             </div>
