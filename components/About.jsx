@@ -47,7 +47,7 @@ const About = () => {
                 {/* Modal Popup */}
                 {modal && <ModalTimeline onClose={toggleModal}/>}
             </div>
-            <div className='w-full h-auto my-3 shadow-lg hover:shadow-none shadow-gray-400 rounded-2xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-200'>
+            <div className='w-full h-auto my-3 flex items-center justify-center p-2 hover:scale-105 ease-in duration-200'>
                 <img className='rounded-full w-1/2' src="https://github.com/IlhamLamp/Assignment1/blob/main/src/images/profile.jpeg?raw=true" alt="/" />
             </div>
         </div>

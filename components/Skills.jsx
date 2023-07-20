@@ -9,14 +9,14 @@ const Skills = () => {
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-primary textShadow'>Skills</p>
             <h2 className='py-4'>What I Can Do</h2>
-            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
+            <div className='flex flex-wrap md:grid md:grid-cols-3 lg:grid-cols-4 gap-8'>
                 {SkillsData.map((skill) => (
-                    <div key={skill.id} className='p-6 bg-tertiary/40 shadow-lg shadow-primary/40 rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                    <div key={skill.id} className='p-1 md:p-6 bg-tertiary/40 shadow-lg shadow-primary/40 rounded-xl hover:scale-105 ease-in duration-300'>
+                        <div className='grid row-auto md:grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
                                 <Image src={skill.src} className='bg-white/30 rounded-lg' width='55' height='55' alt={skill.alt}/>
                             </div>
-                            <div className='flex flex-col items-center justify-center'>
+                            <div className='hidden md:flex flex-col items-center justify-center'>
                                 <h3 className='text-white'>{skill.title}</h3>
                             </div>
                         </div>
