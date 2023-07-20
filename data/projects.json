@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Presence App",
+        "backgroundImg": "/../public/assets/projects/presensi.png",
+        "projectUrl": "/presence",
+        "tech": "React JS"
+    },
+    {
+        "title": "Blog",
+        "backgroundImg": "/../public/assets/projects/blog.png",
+        "projectUrl": "/blog",
+        "tech": "Hugo"
+    }
+
+]
