@@ -47,8 +47,8 @@ const About = () => {
                 {/* Modal Popup */}
                 {modal && <ModalTimeline onClose={toggleModal}/>}
             </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' src="https://media.4rgos.it/i/Argos/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-as274382882?maxW=1200&qlt=75&fmt.jpeg.interlaced=true" alt="/" />
+            <div className='w-full h-auto my-3 shadow-lg hover:shadow-none shadow-gray-400 rounded-2xl flex items-center justify-center p-2 hover:scale-105 ease-in duration-200'>
+                <img className='rounded-full w-1/2' src="https://github.com/IlhamLamp/Assignment1/blob/main/src/images/profile.jpeg?raw=true" alt="/" />
             </div>
         </div>
     </div>

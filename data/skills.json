@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "src": "/../public/assets/skills/JavaScript.png",
+        "alt": "JavaScript",
+        "title": "JavaScript"
+    },
+    {
+        "id": 2,
+        "src": "/../public/assets/skills/React.png",
+        "alt": "React",
+        "title": "React"
+    },
+    {
+        "id": 3,
+        "src": "/../public/assets/skills/Tailwind.png",
+        "alt": "Tailwind",
+        "title": "Tailwind Css"
+    },
+    {
+        "id": 4,
+        "src": "/../public/assets/skills/Bootstrap.png",
+        "alt": "Bootstrap",
+        "title": "Bootstrap"
+    },
+    {
+        "id": 5,
+        "src": "/../public/assets/skills/Nodejs.png",
+        "alt": "Node.js",
+        "title": "Node.js"
+    },
+    {
+        "id": 6,
+        "src": "/../public/assets/skills/Express.png",
+        "alt": "Express.js",
+        "title": "Express.js"
+    },
+    {
+        "id": 7,
+        "src": "/../public/assets/skills/Nextjs.png",
+        "alt": "Next.js",
+        "title": "Next.js"
+    },
+    {
+        "id": 8,
+        "src": "/../public/assets/skills/MySQL.png",
+        "alt": "MySQL",
+        "title": "MySQL"
+    },
+    {
+        "id": 9,
+        "src": "/../public/assets/skills/Sequelize.png",
+        "alt": "Sequelize",
+        "title": "Sequelize"
+    },
+    {
+        "id": 10,
+        "src": "/../public/assets/skills/TypeScript.png",
+        "alt": "TypeScript",
+        "title": "TypeScript"
+    },
+    {
+        "id": 11,
+        "src": "/../public/assets/skills/Go.png",
+        "alt": "Go",
+        "title": "Go"
+    },
+    {
+        "id": 12,
+        "src": "/../public/assets/skills/Git.png",
+        "alt": "Git",
+        "title": "Git"
+    }
+]
