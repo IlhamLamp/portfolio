@@ -117,7 +117,7 @@ const Navbar = () => {
       <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
         <div className={
           nav
-            ? 'fixed left-0 top-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+            ? 'fixed left-0 top-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-[#ecf0f3] text-bg p-10 ease-in duration-500'
             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
         }>
           {/* LOGO */}
