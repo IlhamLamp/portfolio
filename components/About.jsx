@@ -27,7 +27,23 @@ const About = () => {
                     sunt minima ut qui quas amet, et illo dolores eum veritatis consequatur
                     omnis magni rem eligendi voluptates ipsa sequi doloremque excepturi.
                 </p>
-                <p onClick={toggleModal} className='py-2 text-tertiary hover:text-cursor hover:whiteShadow underline cursor-pointer'>My Timeline.</p>
+                <div className='text-center md:text-left'>
+                    {/* TIMELINE */}
+                    <p onClick={toggleModal} className="tlnToggle group hover:cursor-pointer">
+                        <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-primary group-hover:translate-x-0 ease">
+                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </span>
+                        <span className="absolute flex items-center justify-center w-full h-full text-primary transition-all duration-300 transform group-hover:translate-x-full ease">See Timeline</span>
+                        <span className="relative invisible">See Timeline</span>
+                    </p>
+                    {/* <p onClick={toggleModal} className='py-2 text-tertiary hover:text-cursor hover:whiteShadow underline cursor-pointer'>My Timeline.</p> */}
+                    {/* RESUME */}
+                    {/* <button href="#_" className="p-3 group">
+                        <span className="btnHover"></span>
+                        <span className="btnIdle"></span>
+                        <span className="relative text-md">Download Resume</span>
+                    </button> */}
+                </div>
                 {/* Modal Popup */}
                 {modal && <ModalTimeline onClose={toggleModal}/>}
             </div>

@@ -90,8 +90,7 @@ const ModalTimeline = ({onClose}) => {
                             i === 0
                             ? { borderRight: '7px solid rgb(87, 96, 111)' }
                             : undefined;
-                          const dateStyle = i === 0 ? { color: 'red' } : { color: 'blue' };
-
+                            
                         return (
                             <VerticalTimelineElement
                             key={i}

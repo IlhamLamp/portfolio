@@ -55,10 +55,25 @@ html {
     li {
         @apply cursor-pointer
     }
-
+/* 
     button {
         @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    } */
 
+    button {
+        @apply relative inline-flex items-center justify-center overflow-hidden tracking-tighter text-white bg-gray-800 rounded-lg
+    }
+
+    .btnHover {
+        @apply absolute w-0 h-0 transition-all duration-500 ease-out bg-green-500 rounded-full group-hover:w-56 group-hover:h-56
+    }
+
+    .btnIdle {
+        @apply absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700
+    }
+
+    .tlnToggle {
+        @apply relative inline-flex items-center justify-center p-3 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-primary rounded-full shadow-md
     }
 
     /* LAST HERE */
