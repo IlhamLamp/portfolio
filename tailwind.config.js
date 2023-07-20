@@ -15,8 +15,12 @@ module.exports = {
         'primary': '#09d0ac',
         'secondary': '#35a29f',
         'tertiary': '#27e1c1',
+        'close': '#eb4d4b',
+        'closeHover': '#ff7979',
+        'closeRing': '#fc5c65',
         'light': '#50cb93',
-        'cursor': '#97feed',        
+        'cursor': '#97feed',
+        'popup': '#d1d8e0',        
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
