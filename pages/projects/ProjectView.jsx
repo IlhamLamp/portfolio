@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import netflixImg from '../../public/assets/projects/netflix.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import projectsData from '../../data/projects.json'
@@ -14,10 +13,19 @@ const ProjectView = ({projectUrl}) => {
         return <div>Project not found</div>;
     }
 
-    const { title, backgroundImg, tech } = project;  
+    // Define from json
+    const { title,
+            backgroundImg,
+            tech, 
+            stack,
+            tools,
+            repo,
+            demo,
+            description 
+    } = project;  
 
   return (
-    <div className='w-full'>
+    <div className='w-full overflow-x-hidden'>
       <div className='w-screen h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
         <Image
@@ -29,7 +37,7 @@ const ProjectView = ({projectUrl}) => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>{title}</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h3>{stack}</h3>
         </div>
       </div>
 
@@ -38,16 +46,10 @@ const ProjectView = ({projectUrl}) => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+            {description}
           </p>
           <a
-            href='https://github.com/fireclint/netflix-react-tailwind'
+            href={repo}
             target='_blank'
             rel='noreferrer'
           >
@@ -65,21 +67,11 @@ const ProjectView = ({projectUrl}) => {
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> IMDB API
-              </p>
+                {tools.map((tool, index) => (
+                    <p key={index} className='text-gray-600 py-2 flex items-center'>
+                        <RiRadioButtonFill className='pr-1' />{tool}
+                    </p>
+                ))}
             </div>
           </div>
         </div>

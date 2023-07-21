@@ -3,24 +3,33 @@
         "title": "Presence App",
         "backgroundImg": "/../public/assets/projects/presence.png",
         "projectUrl": "/projects/presence",
-        "tech": "React JS"
+        "tech": "React JS",
+        "stack": "React JS / JavaScript / CSS",
+        "tools": ["React JS", "JavaScript", "Vite", "CSS", "Node.js", "Express.js", "MySQL"],
+        "repo": "https://github.com/IlhamLamp/presensi-mern",
+        "demo": "",
+        "description": "I built this application in React JS and is hosted on GitHub pages. This app features user authentication with firebase as well as the firestore cloud storage database. This application is pulling movie data from an the IMDB movie API and displaying different categories. It features horizontal sliding and a featured selection. The useContext hook is also being implemented for app-wide state management."
     },
     {
         "title": "Markdown Blog",
         "backgroundImg": "/../public/assets/projects/blog.png",
-        "projectUrl": "/presence",
-        "tech": "Hugo"
+        "projectUrl": "/projects/blog",
+        "tech": "Hugo",
+        "stack": "Hugo / Markdown / CSS",
+        "tools": ["Hugo", "Markdown", "Html", "CSS", "Netlify"],
+        "repo": "https://github.com/IlhamLamp/blog",
+        "demo": "https://memorest.netlify.app/",
+        "description": "I built this application in React JS and is hosted on GitHub pages. This app features user authentication with firebase as well as the firestore cloud storage database. This application is pulling movie data from an the IMDB movie API and displaying different categories. It features horizontal sliding and a featured selection. The useContext hook is also being implemented for app-wide state management."
     },
     {
         "title": "Todo To Img",
         "backgroundImg": "/../public/assets/projects/todo.png",
-        "projectUrl": "/todo",
-        "tech": "Javascript"
-    },
-    {
-        "title": "Todo To Img",
-        "backgroundImg": "/../public/assets/projects/todo.png",
-        "projectUrl": "/project/ProjectView",
-        "tech": "Javascript"
+        "projectUrl": "/projects/todo",
+        "tech": "Javascript",
+        "stack": "Javascript / Html / CSS",
+        "tools": ["JavaScript", "Html", "CSS", "Github Pages"],
+        "repo": "https://github.com/IlhamLamp/todo-to-img",
+        "demo": "https://ilhamlamp.github.io/todo-to-img/",
+        "description":"I built this application in React JS and is hosted on GitHub pages. This app features user authentication with firebase as well as the firestore cloud storage database. This application is pulling movie data from an the IMDB movie API and displaying different categories. It features horizontal sliding and a featured selection. The useContext hook is also being implemented for app-wide state management."
     }
 ]
