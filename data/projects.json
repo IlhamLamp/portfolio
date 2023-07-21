@@ -6,9 +6,9 @@
         "tech": "React JS"
     },
     {
-        "title": "Blog",
+        "title": "Markdown Blog",
         "backgroundImg": "/../public/assets/projects/blog.png",
-        "projectUrl": "/blog",
+        "projectUrl": "/presence",
         "tech": "Hugo"
     },
     {
@@ -16,6 +16,11 @@
         "backgroundImg": "/../public/assets/projects/todo.png",
         "projectUrl": "/todo",
         "tech": "Javascript"
+    },
+    {
+        "title": "Todo To Img",
+        "backgroundImg": "/../public/assets/projects/todo.png",
+        "projectUrl": "/project/netflix",
+        "tech": "Javascript"
     }
-
 ]
