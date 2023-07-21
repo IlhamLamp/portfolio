@@ -2,7 +2,7 @@
     {
         "title": "Presence App",
         "backgroundImg": "/../public/assets/projects/presence.png",
-        "projectUrl": "/presence",
+        "projectUrl": "/projects/presence",
         "tech": "React JS"
     },
     {
@@ -20,7 +20,7 @@
     {
         "title": "Todo To Img",
         "backgroundImg": "/../public/assets/projects/todo.png",
-        "projectUrl": "/project/netflix",
+        "projectUrl": "/project/ProjectView",
         "tech": "Javascript"
     }
 ]

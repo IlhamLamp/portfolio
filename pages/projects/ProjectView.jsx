@@ -3,8 +3,19 @@ import React from 'react';
 import netflixImg from '../../public/assets/projects/netflix.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import projectsData from '../../data/projects.json'
 
-const projectView = () => {
+const ProjectView = ({projectUrl}) => {
+    // Find the project based on the projectUrl
+    const project = projectsData.find((proj) => proj.projectUrl === projectUrl);
+
+    if (!project) {
+        // Handle case when project is not found
+        return <div>Project not found</div>;
+    }
+
+    const { title, backgroundImg, tech } = project;  
+
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,11 +24,11 @@ const projectView = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={netflixImg}
+          src={backgroundImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Netflix App</h2>
+          <h2 className='py-2'>{title}</h2>
           <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -80,4 +91,4 @@ const projectView = () => {
   );
 };
 
-export default projectView;
+export default ProjectView
