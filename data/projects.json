@@ -1,7 +1,7 @@
 [
     {
         "title": "Presence App",
-        "backgroundImg": "/../public/assets/projects/presensi.png",
+        "backgroundImg": "/../public/assets/projects/presence.png",
         "projectUrl": "/presence",
         "tech": "React JS"
     },
@@ -10,6 +10,12 @@
         "backgroundImg": "/../public/assets/projects/blog.png",
         "projectUrl": "/blog",
         "tech": "Hugo"
+    },
+    {
+        "title": "Todo To Img",
+        "backgroundImg": "/../public/assets/projects/todo.png",
+        "projectUrl": "/todo",
+        "tech": "Javascript"
     }
 
 ]
