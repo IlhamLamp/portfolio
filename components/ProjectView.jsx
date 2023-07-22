@@ -2,9 +2,9 @@ import Image from 'next/image'
 import React from 'react'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
-import ProjectsButton from '../../components/Button/ProjectsButton'
-import projectsData from '../../data/projects.json'
-import '../../styles/styles.css'
+import ProjectsButton from './Button/ProjectsButton'
+import projectsData from '../data/projects.json'
+import '../styles/styles.css'
 
 
 const ProjectView = ({projectUrl}) => {
