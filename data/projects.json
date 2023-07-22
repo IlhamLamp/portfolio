@@ -1,7 +1,7 @@
 [
     {
         "title": "Presence App",
-        "backgroundImg": "/../public/assets/projects/presence.png",
+        "backgroundImg": "/assets/projects/presence.png",
         "projectUrl": "/projects/presence",
         "tech": "React JS",
         "stack": "React JS / JavaScript / CSS",
@@ -12,7 +12,7 @@
     },
     {
         "title": "Markdown Blog",
-        "backgroundImg": "/../public/assets/projects/blog.png",
+        "backgroundImg": "/assets/projects/blog.png",
         "projectUrl": "/projects/blog",
         "tech": "Hugo",
         "stack": "Hugo / Markdown / CSS",
@@ -23,7 +23,7 @@
     },
     {
         "title": "Todo To Img",
-        "backgroundImg": "/../public/assets/projects/todo.png",
+        "backgroundImg": "/assets/projects/todo.png",
         "projectUrl": "/projects/todo",
         "tech": "JavaScript",
         "stack": "JavaScript / Html / CSS",
