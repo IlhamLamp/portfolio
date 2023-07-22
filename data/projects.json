@@ -7,7 +7,7 @@
         "stack": "React JS / JavaScript / CSS",
         "tools": ["React JS", "JavaScript", "Vite", "CSS", "Node.js", "Express.js", "MySQL"],
         "repo": "https://github.com/IlhamLamp/presensi-mern",
-        "demo": "",
+        "demo": "#",
         "description": "I built this application in React JS and is hosted on GitHub pages. This app features user authentication with firebase as well as the firestore cloud storage database. This application is pulling movie data from an the IMDB movie API and displaying different categories. It features horizontal sliding and a featured selection. The useContext hook is also being implemented for app-wide state management."
     },
     {
