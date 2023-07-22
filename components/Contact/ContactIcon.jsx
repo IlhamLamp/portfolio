@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 const ContactIcon = () => {
 
     // EMAIL 
-    const emailAddress = 'memorest.me@gmail.com'
+    const emailAddress = 'test@mail.com'
     const subject = `Test subject`
     const message = `Test message`
 

@@ -1,14 +1,54 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import toast, {Toaster} from 'react-hot-toast'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import ContactIcon from './Contact/ContactIcon'
-import '../styles/styles.css'
 import contactImg from '../public/assets/contact.png'
+import '../styles/styles.css'
 
 const Contact = () => {
+
+    const [form, setForm] = useState({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+    })
+
+    const handleChange = (e) => {
+        const { name, value } = e.target
+        setForm((state) => ({ ...state, [name]: value}))
+    }
+
+    const handleSubmit = () => {
+        fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            Accept: "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
+        })
+          .then((res) => {
+            console.log("Response received");
+            if (res.status === 200) {
+              console.log("Success send message!");
+              toast.success("Success send message!");
+            } else {
+              console.error(res);
+              toast.error("Failed send message!");
+            }
+          })
+          .catch((err) => {
+            console.error(err);
+            toast.error("Failed send message!");
+          });
+      };
+
   return (
-    <div id='contact' className='w-full lg:h-screen'>
+    <div id='contact' className='w-full'>
+        <Toaster />
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
             <p className='text-xl tracking-widest uppercase text-primary textShadow'>
                 Contact
@@ -47,39 +87,51 @@ const Contact = () => {
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm text-primary font-bold py-2'>Name</label>
-                                    <input className='border-2 rounded-lg p-3 text-bg font-bold flex border-gray-300' type="text" />
-                                </div>
-                                <div className='flex flex-col'>
-                                    <label className='uppercase text-sm text-primary font-bold py-2'>Phone</label>
                                     <input 
                                         className='border-2 rounded-lg p-3 text-bg font-bold flex border-gray-300'
-                                        type="tel" 
-                                        onInput={(e) => {
-                                            const maxDigits = 15
-                                            let value = e.target.value.replace(/[^0-9]/g, "")
-                                            value = value.slice(0, maxDigits); // Potong menjadi maksimal 15 angka
-                                            e.target.value = value;
-                                        }}
+                                        type='text'
+                                        placeholder='Name'
+                                        onChange={handleChange} 
+                                    />
+                                </div>
+                                <div className='flex flex-col'>
+                                    <label className='uppercase text-sm text-primary font-bold py-2'>Email</label>
+                                    <input 
+                                        className='border-2 rounded-lg p-3 text-bg font-bold flex border-gray-300' 
+                                        type='email'
+                                        placeholder='Email'
+                                        onChange={handleChange}
+                                        required
                                     />
                                 </div>
                             </div>
                             <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm text-primary font-bold py-2'>Email</label>
-                                <input className='border-2 rounded-lg p-3 text-bg font-bold flex border-gray-300' type="text" />
+                                <label className='uppercase text-sm text-primary font-bold py-2'>Subject</label>
+                                <input 
+                                    className='border-2 rounded-lg p-3 text-bg font-bold flex border-gray-300' 
+                                    type='text'
+                                    placeholder='Subject'
+                                    onChange={handleChange}
+                                 />
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm text-primary font-bold py-2'>Message</label>
-                                <textarea className='border-2 rounded-lg p-3 text-bg font-bold flex border-gray-300' rows='5' />
+                                <textarea 
+                                    className='border-2 rounded-lg p-3 text-bg font-bold flex border-gray-300' 
+                                    rows='5'
+                                    placeholder='Message'
+                                    onChange={handleChange} 
+                                />
                             </div>
-                            <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
+                            <button className='w-full p-4 text-gray-100 mt-4 shadow-lg shadow-primary/20 hover:scale-105 ease-in duration-100' onClick={handleSubmit}>Send Message</button>
                         </form>
                     </div>
                 </div>
             </div>
             <div className='flex justify-center py-12'>
                 <Link href='/'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-500'>
-                        <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={20} />
+                    <div className='rounded-full shadow-lg bg-tertiary/50 shadow-primary p-5 cursor-pointer hover:scale-105 ease-in duration-500'>
+                        <HiOutlineChevronDoubleUp className='text-white/60' size={20} />
                     </div>
                 </Link>
             </div>
