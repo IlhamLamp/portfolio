@@ -8,8 +8,9 @@ const Main = () => {
     // data roles typewriter effect
     const roles = [
         "A Student",
-        "Junior Golang Developer",
+        "Backend Enthusiast",
         "Frontend Developer",
+        "ChatGPT Prompter"
     ]
 
   return (
