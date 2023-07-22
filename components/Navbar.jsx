@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
@@ -9,6 +10,9 @@ import NavLogo from '../public/assets/navLogo.png'
 
 
 const Navbar = () => {
+
+  const router = useRouter();
+
   // const [theme, setTheme] = useState("light")
   const [nav, setNav] = useState(false)
   const [shadow, setShadow] = useState(false)
@@ -58,6 +62,13 @@ const Navbar = () => {
   //   document.documentElement.setAttribute("data-theme", newTheme)
   // }
 
+  const menuItems = [
+    { path: '/#about', label: 'About' },
+    { path: '/#skills', label: 'Skills' },
+    { path: '/#projects', label: 'Projects' },
+    { path: '/#contact', label: 'Contact' },
+  ];
+
   return (
     <div
       className= {
@@ -81,20 +92,15 @@ const Navbar = () => {
           <ul className='hidden md:flex'>
             <div className='flex'>
               <Link href='/'>
-                <li className='mx-5 text-sm hover:border-b'>Home</li>
+                <li className='mx-5 text-sm text-white hover:border-b'>Home</li>
               </Link>
-              <Link href='/#about'>
-                <li className='mx-5 text-sm hover:border-b'>About</li>
-              </Link>
-              <Link href='/#skills'>
-                <li className='mx-5 text-sm hover:border-b'>Skils</li>
-              </Link>
-              <Link href='/#projects'>
-                <li className='mx-5 text-sm hover:border-b '>Projects</li>
-              </Link>
-              <Link href='/#contact'>
-                <li className='mx-5 text-sm hover:border-b'>Contacts</li>
-              </Link>
+              {menuItems.map((item) => (
+                <Link key={item.path} href={item.path}>
+                  <li className={`mx-5 text-sm ${router.asPath.includes(item.path) ? 'text-primary textShadow' : 'text-white'} hover:border-b`}>
+                    {item.label}
+                  </li>
+                </Link>
+              ))}
             </div>
             {/* Desktop Dark Toggle */}
             {/* <div className='mx-4'>
