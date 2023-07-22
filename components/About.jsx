@@ -36,6 +36,7 @@ const About = () => {
                         <span className="absolute flex items-center justify-center w-full h-full text-primary transition-all duration-300 transform group-hover:translate-x-full ease">See Timeline</span>
                         <span className="relative invisible">See Timeline</span>
                     </p>
+                    
                     {/* <p onClick={toggleModal} className='py-2 text-tertiary hover:text-cursor hover:whiteShadow underline cursor-pointer'>My Timeline.</p> */}
                     {/* RESUME */}
                     {/* <button href="#_" className="p-3 group">

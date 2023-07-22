@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import ProjectsButton from '@/components/Button/ProjectsButton';
 import projectsData from '../../data/projects.json'
 
 const ProjectView = ({projectUrl}) => {
@@ -33,11 +34,11 @@ const ProjectView = ({projectUrl}) => {
           layout='fill'
           objectFit='cover'
           src={backgroundImg}
-          alt='/'
+          alt={title}
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>{title}</h2>
-          <h3>{stack}</h3>
+          <h3 className='text-cursor'>{stack}</h3>
         </div>
       </div>
 
@@ -53,7 +54,7 @@ const ProjectView = ({projectUrl}) => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+            <ProjectsButton text="Code" />
           </a>
           <a
             href={demo}
@@ -68,8 +69,8 @@ const ProjectView = ({projectUrl}) => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
                 {tools.map((tool, index) => (
-                    <p key={index} className='text-gray-600 py-2 flex items-center'>
-                        <RiRadioButtonFill className='pr-1' />{tool}
+                    <p key={index} className='text-secondary py-2 flex items-center'>
+                        <RiRadioButtonFill className='pr-1 text-primary' />{tool}
                     </p>
                 ))}
             </div>
