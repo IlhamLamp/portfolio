@@ -6,14 +6,14 @@ import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 const ContactIcon = () => {
 
     // EMAIL 
-    const emailAddress = 'test@mail.com'
-    const subject = `Test subject`
-    const message = `Test message`
+    const emailAddress = 'ilhamutomo24@gmail.com'
+    const subject = `Hello`
+    const message = `Let's Connect on LinkedIn!`
 
   return (
     <>
     {/* Linkedin */}
-    <Link href="https://www.linkedin.com/in/ilham-nur-utomo-064b89220/" passHref>
+    <Link href="https://www.linkedin.com/in/ilham-nur-utomo" passHref>
         <div className='rounded-full shadow-lg bg-slate-50 shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-150 hover:shadow-none'>
             <FaLinkedinIn className='text-bg'/>
         </div>
