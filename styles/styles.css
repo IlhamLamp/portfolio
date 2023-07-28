@@ -5,3 +5,13 @@
 .whiteShadow {
   text-shadow: 1px 1px 1.5px rgb(237, 240, 241), 0 0 0.1em #edf0f1;
 }
+
+/* carousel dots */
+.slick-dots li button::before {
+  color: rgb(237, 240, 241) !important;
+  font-size: 0.5rem !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(9, 208, 172) !important
+}
