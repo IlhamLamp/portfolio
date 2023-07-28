@@ -11,6 +11,17 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
     },
     {
+        "title": "Web Scrapping Expose API",
+        "backgroundImg": "/assets/projects/web-scrapping.png",
+        "projectUrl": "/projects/webscrapping",
+        "tech": "Nest JS",
+        "stack": "Nest JS / Puppeteer / Node JS",
+        "tools": ["Nest JS", "Puppeteer", "Typescript", "Node.js", "API"],
+        "repo": "https://github.com/IlhamLamp/menu-scrapper",
+        "demo": "#",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
+    },
+    {
         "title": "Markdown Blog",
         "backgroundImg": "/assets/projects/blog.png",
         "projectUrl": "/projects/blog",
