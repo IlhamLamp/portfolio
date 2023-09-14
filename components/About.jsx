@@ -17,15 +17,12 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-primary textShadow'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-whiteSec'>
-                    Hello, my name is Ilham Nur Utomo, usually called ilham. I am 21 years old and currently
+                    Hello! my name is Ilham Nur Utomo, usually called ilham. I was born in Purbalingga on May 24, 2002 (21 years old). I live in Bekasi and currently
                     studying at Pelita Bangsa University. In between these times, I like to take the time to
-                    follow programming tutorials. Looking at the code running after the error, somehow it looks
-                    so beautiful. Well, even though before it was dizzy hehe.
+                    follow programming tutorials. 
                 </p>
                 <p className='py-2 text-whiteSec'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
-                    sunt minima ut qui quas amet, et illo dolores eum veritatis consequatur
-                    omnis magni rem eligendi voluptates ipsa sequi doloremque excepturi.
+                    I Have an interest in a career as a Back-end Developer (Node.Js and Golang). I am a diligent person and often look for new opportunities to develop.
                 </p>
                 <div className='text-center md:text-left'>
                     {/* TIMELINE */}
