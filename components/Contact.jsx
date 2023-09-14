@@ -68,7 +68,7 @@ const Contact = () => {
                         <div className='text-center'>
                             <h2 className="p-2">Ilham Nur Utomo</h2>
                             <p className='text-secondary font-bold'>A Student</p>
-                            <p className='py-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, doloribus.</p>
+                            {/* <p className='py-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, doloribus.</p> */}
                         </div>
                         <div className='text-center'>
                             <p className="uppercase pt-8 whiteShadow">Connect With Me</p>
