@@ -38,10 +38,10 @@ const ModalTimeline = ({onClose}) => {
         },
         {
           icon: schoolIcon,
-          date: `Jun 09 - Aug 31`,
+          date: `Jun 09 - Nov 3`,
           title: 'Dicoding',
           subtitle: '• DBS Foundation Coding Camp',
-          desc: 'Learn to implement CI/CD, Linux System Administrator',
+          desc: 'Learn to Build Microservices Architecture, Learn to implement CI/CD, Linux System Administrator',
         },
         {
           icon: workIcon,
