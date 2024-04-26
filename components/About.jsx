@@ -10,6 +10,9 @@ const About = () => {
         setModal(!modal)
     }
 
+    const currentYear = new Date().getFullYear();
+    const myAge = currentYear - 2002
+
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
@@ -17,7 +20,7 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-primary textShadow'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-whiteSec'>
-                    Hello! my name is Ilham Nur Utomo, usually called ilham. I was born in Purbalingga on May 24, 2002 (21 years old). I live in Bekasi and currently
+                    Hello! my name is Ilham Nur Utomo, usually called ilham. I was born in Purbalingga on May 24, 2002 ({myAge} years old). I live in Bekasi and currently
                     studying at Pelita Bangsa University. In between these times, I like to take the time to
                     follow programming tutorials. 
                 </p>

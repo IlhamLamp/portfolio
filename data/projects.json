@@ -42,5 +42,49 @@
         "repo": "https://github.com/IlhamLamp/todo-to-img",
         "demo": "https://ilhamlamp.github.io/todo-to-img/",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
+    },
+    {
+        "title": "Food Ordering",
+        "backgroundImg": "/assets/projects/food-ordering.png",
+        "projectUrl": "/projects/food-ordering",
+        "tech": "Next Js",
+        "stack": "Typescript / Mongo / Next Js",
+        "tools": ["Typescript", "React Js", "Next Js", "Vercel"],
+        "repo": "#",
+        "demo": "#",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
+    },
+    {
+        "title": "Clarity Blog",
+        "backgroundImg": "/assets/projects/clarity-blog.png",
+        "projectUrl": "/projects/clarity-blog",
+        "tech": "React Typescript",
+        "stack": "Typescript / React / Next Js",
+        "tools": ["Typescript", "React Js", "Next Js", "Vercel"],
+        "repo": "https://github.com/IlhamLamp/clarity",
+        "demo": "https://clarity-three.vercel.app/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
+    },
+    {
+        "title": "Bookshelf API",
+        "backgroundImg": "/assets/projects/rest-api.png",
+        "projectUrl": "/projects/bookshelf-api",
+        "tech": "Node Js",
+        "stack": "Node Js / Hapi / Javascript",
+        "tools": ["Node js", "Hapi", "JavaScript"],
+        "repo": "https://github.com/IlhamLamp/Sub-mission_BookshelfAPI/",
+        "demo": "#",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
+    },
+    {
+        "title": "Durian Management Warehouse",
+        "backgroundImg": "/assets/projects/rest-api.png",
+        "projectUrl": "/projects/durian-api",
+        "tech": "Express Js",
+        "stack": "Node Js / Express Js / Sequelize",
+        "tools": ["Node js", "Express Js", "Sequelize", "Postman"],
+        "repo": "https://github.com/IlhamLamp/Durian-API",
+        "demo": "#",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
     }
 ]
