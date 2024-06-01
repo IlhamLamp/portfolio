@@ -48,10 +48,10 @@
         "backgroundImg": "/assets/projects/food-ordering.png",
         "projectUrl": "/projects/food-ordering",
         "tech": "Next Js",
-        "stack": "Typescript / Mongo / Next Js",
+        "stack": "Typescript / MongoDB / Next Js",
         "tools": ["Typescript", "React Js", "Next Js", "Vercel"],
-        "repo": "#",
-        "demo": "#",
+        "repo": "https://github.com/IlhamLamp/foodine",
+        "demo": "https://foodine-beta.vercel.app/",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
     },
     {
