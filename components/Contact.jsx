@@ -67,8 +67,7 @@ const Contact = () => {
                         </div>
                         <div className='text-center'>
                             <h2 className="p-2">Ilham Nur Utomo</h2>
-                            <p className='text-secondary font-bold'>A Student</p>
-                            {/* <p className='py-4'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, doloribus.</p> */}
+                            <p className='text-secondary font-bold'>Backend Developer</p>
                         </div>
                         <div className='text-center'>
                             <p className="uppercase pt-8 whiteShadow">Connect With Me</p>
@@ -129,7 +128,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className='flex justify-center py-12'>
-                <Link href='/'>
+                <Link href='/?main=main'>
                     <div className='rounded-full shadow-lg bg-tertiary/50 shadow-primary p-5 cursor-pointer hover:scale-105 ease-in duration-500'>
                         <HiOutlineChevronDoubleUp className='text-white/60' size={20} />
                     </div>

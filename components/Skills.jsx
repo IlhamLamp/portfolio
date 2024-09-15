@@ -1,25 +1,17 @@
 import React from 'react'
-import Image from 'next/image'
 import SkillsData from '../data/skills.json'
 import '../styles/styles.css'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
-        <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+    <div id='skills' className='w-full md:h-screen p-2'>
+        <div className='max-w-[1240px] m-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-primary textShadow'>Skills</p>
             <h2 className='py-4'>What I Can Do</h2>
-            <div className='flex flex-wrap md:grid md:grid-cols-3 lg:grid-cols-4 gap-8'>
+            <div className='flex flex-wrap md:grid md:grid-cols-6 lg:grid-cols-10 gap-2 lg:gap-6'>
                 {SkillsData.map((skill) => (
-                    <div key={skill.id} className='p-1 md:p-6 bg-tertiary/40 shadow-lg shadow-primary/40 rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid row-auto md:grid-cols-2 gap-4 justify-center items-center'>
-                            <div className='m-auto'>
-                                <Image src={skill.src} className='bg-white/30 rounded-lg' width='55' height='55' alt={skill.alt}/>
-                            </div>
-                            <div className='hidden md:flex flex-col items-center justify-center'>
-                                <h3 className='text-white'>{skill.title}</h3>
-                            </div>
-                        </div>
+                    <div key={skill.id}>
+                        <img src={skill.src} width={20} height={20} alt={skill.alt} />
                     </div>
                 ))}
             </div>

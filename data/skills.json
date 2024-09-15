@@ -1,74 +1,202 @@
 [
     {
         "id": 1,
-        "src": "/assets/skills/JavaScript.png",
-        "alt": "JavaScript",
-        "title": "JavaScript"
+        "src": "https://skillicons.dev/icons?i=html",
+        "alt": "HTML"
     },
     {
         "id": 2,
-        "src": "/assets/skills/React.png",
-        "alt": "React",
-        "title": "React"
+        "src": "https://skillicons.dev/icons?i=css",
+        "alt": "CSS"
     },
     {
         "id": 3,
-        "src": "/assets/skills/Tailwind.png",
-        "alt": "Tailwind",
-        "title": "Tailwind Css"
+        "src": "https://skillicons.dev/icons?i=javascript",
+        "alt": "JavaScript"
     },
     {
         "id": 4,
-        "src": "/assets/skills/Bootstrap.png",
-        "alt": "Bootstrap",
-        "title": "Bootstrap"
+        "src": "https://skillicons.dev/icons?i=typescript",
+        "alt": "TypeScript"
     },
     {
         "id": 5,
-        "src": "/assets/skills/Nodejs.png",
-        "alt": "Node.js",
-        "title": "Node.js"
+        "src": "https://skillicons.dev/icons?i=react",
+        "alt": "React"
     },
     {
         "id": 6,
-        "src": "/assets/skills/Express.png",
-        "alt": "Express.js",
-        "title": "Express.js"
+        "src": "https://skillicons.dev/icons?i=redux",
+        "alt": "Redux"
     },
     {
         "id": 7,
-        "src": "/assets/skills/Nextjs.png",
-        "alt": "Next.js",
-        "title": "Next.js"
+        "src": "https://skillicons.dev/icons?i=nextjs",
+        "alt": "Nextjs"
     },
     {
         "id": 8,
-        "src": "/assets/skills/MySQL.png",
-        "alt": "MySQL",
-        "title": "MySQL"
+        "src": "https://skillicons.dev/icons?i=webpack",
+        "alt": "Webpack"
     },
     {
         "id": 9,
-        "src": "/assets/skills/Sequelize.png",
-        "alt": "Sequelize",
-        "title": "Sequelize"
+        "src": "https://skillicons.dev/icons?i=vite",
+        "alt": "Vite"
     },
     {
         "id": 10,
-        "src": "/assets/skills/TypeScript.png",
-        "alt": "TypeScript",
-        "title": "TypeScript"
+        "src": "https://skillicons.dev/icons?i=bootstrap",
+        "alt": "Bootstrap"
     },
     {
         "id": 11,
-        "src": "/assets/skills/Go.png",
-        "alt": "Go",
-        "title": "Go"
+        "src": "https://skillicons.dev/icons?i=tailwindcss",
+        "alt": "Tailwindcss"
     },
     {
         "id": 12,
-        "src": "/assets/skills/Git.png",
-        "alt": "Git",
-        "title": "Git"
+        "src": "https://skillicons.dev/icons?i=vercel",
+        "alt": "Vercel"
+    },
+    {
+        "id": 13,
+        "src": "https://skillicons.dev/icons?i=netlify",
+        "alt": "Netlify"
+    },
+    {
+        "id": 14,
+        "src": "https://skillicons.dev/icons?i=heroku",
+        "alt": "Heroku"
+    },
+    {
+        "id": 15,
+        "src": "https://skillicons.dev/icons?i=figma",
+        "alt": "Figma"
+    },
+    {
+        "id": 16,
+        "src": "https://skillicons.dev/icons?i=nodejs",
+        "alt": "Nodejs"
+    },
+    {
+        "id": 17,
+        "src": "https://skillicons.dev/icons?i=express",
+        "alt": "Expressjs"
+    },
+    {
+        "id": 18,
+        "src": "https://skillicons.dev/icons?i=nest",
+        "alt": "Nestjs"
+    },
+    {
+        "id": 19,
+        "src": "https://skillicons.dev/icons?i=sequelize",
+        "alt": "Sequelize"
+    },
+    {
+        "id": 20,
+        "src": "https://skillicons.dev/icons?i=prisma",
+        "alt": "Prisma"
+    },
+    {
+        "id": 21,
+        "src": "https://skillicons.dev/icons?i=go",
+        "alt": "Go"
+    },
+    {
+        "id": 22,
+        "src": "https://skillicons.dev/icons?i=python",
+        "alt": "Python"
+    },
+    {
+        "id": 23,
+        "src": "https://skillicons.dev/icons?i=php",
+        "alt": "PHP"
+    },
+    {
+        "id": 24,
+        "src": "https://skillicons.dev/icons?i=python",
+        "alt": "Python"
+    },
+    {
+        "id": 25,
+        "src": "https://skillicons.dev/icons?i=mysql",
+        "alt": "Mysql"
+    },
+    {
+        "id": 26,
+        "src": "https://skillicons.dev/icons?i=postgresql",
+        "alt": "Postgresql"
+    },
+    {
+        "id": 27,
+        "src": "https://skillicons.dev/icons?i=mongodb",
+        "alt": "Mongodb"
+    },
+    {
+        "id": 28,
+        "src": "https://skillicons.dev/icons?i=redis",
+        "alt": "Redis"
+    },
+    {
+        "id": 29,
+        "src": "https://skillicons.dev/icons?i=firebase",
+        "alt": "Firebase"
+    },
+    {
+        "id": 30,
+        "src": "https://skillicons.dev/icons?i=postman",
+        "alt": "Postman"
+    },
+    {
+        "id": 31,
+        "src": "https://skillicons.dev/icons?i=rabbitmq",
+        "alt": "Rabbitmq"
+    },
+    {
+        "id": 32,
+        "src": "https://skillicons.dev/icons?i=docker",
+        "alt": "Docker"
+    },
+    {
+        "id": 33,
+        "src": "https://skillicons.dev/icons?i=git",
+        "alt": "Github"
+    },
+    {
+        "id": 34,
+        "src": "https://skillicons.dev/icons?i=aws",
+        "alt": "AWS"
+    },
+    {
+        "id": 35,
+        "src": "https://skillicons.dev/icons?i=selenium",
+        "alt": "Selenium"
+    },
+    {
+        "id": 36,
+        "src": "https://skillicons.dev/icons?i=jenkins",
+        "alt": "Jenkins"
+    },
+    {
+        "id": 37,
+        "src": "https://skillicons.dev/icons?i=prometheus",
+        "alt": "Prometheus"
+    },
+    {
+        "id": 38,
+        "src": "https://skillicons.dev/icons?i=grafana",
+        "alt": "Grafana"
+    },
+    {
+        "id": 39,
+        "src": "https://skillicons.dev/icons?i=bash",
+        "alt": "Bash"
+    },
+    {
+        "id": 40,
+        "src": "https://skillicons.dev/icons?i=linux",
+        "alt": "Linux"
     }
 ]

@@ -86,5 +86,16 @@
         "repo": "https://github.com/IlhamLamp/Durian-API",
         "demo": "#",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
+    },
+    {
+        "title": "PDF Table to API ",
+        "backgroundImg": "/assets/projects/rest-api.png",
+        "projectUrl": "/projects/pdftable-api",
+        "tech": "Nest Js",
+        "stack": "Node Js / Nest Js / MySql",
+        "tools": ["Node js", "Nest Js", "MySQL", "Postman"],
+        "repo": "https://github.com/IlhamLamp/SCRAP-FATEK",
+        "demo": "#",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend, augue sagittis rhoncus dignissim, purus leo elementum purus, et semper ante elit non eros. Sed euismod ipsum non venenatis laoreet. Aenean eu orci tellus. Nullam sit amet sodales elit. In."
     }
 ]

@@ -2,6 +2,9 @@
 // const nextConfig = {}
 // module.exports = nextConfig
 module.exports = {
+    images: {
+        domains: ["skillicons.dev"]
+    },
     async rewrites() {
         return [
             {

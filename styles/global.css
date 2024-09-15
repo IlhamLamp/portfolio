@@ -65,7 +65,7 @@ html {
     }
 
     .btnHover {
-        @apply absolute w-0 h-0 transition-all duration-500 ease-out bg-green-500 rounded-full group-hover:w-56 group-hover:h-56
+        @apply absolute w-0 h-0 transition-all duration-500 ease-out bg-primary rounded-full group-hover:w-56 group-hover:h-56
     }
 
     .btnIdle {

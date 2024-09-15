@@ -1,0 +1,45 @@
+[
+    {
+        "icon": "workIcon",
+        "date": "2024 - present",
+        "title": "Timedoor Academy",
+        "subtitle": "• Part Time Programming Teacher",
+        "desc": "Teaching Scracth and Web Developer, Make student learning reports every 8 meetings."
+    },
+    {
+        "icon": "schoolIcon",
+        "date": "2020 - 2024",
+        "title": "Pelita Bangsa University",
+        "subtitle": "• Bachelor Degree, Informatics Engineering",
+        "desc": "GPA 3.70 of 4.00"
+    },
+    {
+        "icon": "workIcon",
+        "date": "Jun 09 - Nov 3",
+        "title": "Dicoding",
+        "subtitle": "• DBS Foundation Coding Camp",
+        "desc": "Learn to Build Microservices Architecture, Learn to implement CI/CD, Linux System Administrator"
+    },
+    {
+        "icon": "workIcon",
+        "date": "May 05 - Jun 05",
+        "title": "SMAN 2 Cibitung",
+        "subtitle": "• Internship",
+        "desc": "Build presence system view with camera, React Js"
+    },
+    {
+        "icon": "workIcon",
+        "date": "Feb 16 - Jun 30",
+        "title": "MSIB PT. Ruang Raya Indonesia",
+        "subtitle": "• Back-end Engineering Bootcamp",
+        "desc": "REST API concept implementation, Go (Golang)"
+    },
+    {
+        "icon": "schoolIcon",
+        "date": "2017 - 2020",
+        "title": "SMAN 1 Cibarusah",
+        "subtitle": "• High School, Math and Science",
+        "desc": "Score 85.80 of 100"
+    },
+    { "icon": "starIcon" }
+]

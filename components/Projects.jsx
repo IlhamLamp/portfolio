@@ -10,7 +10,7 @@ const Projects = () => {
 
   // Carousel
   const confCarousel = {
-    className: "center",
+    className: "slider-container",
     dots: true,
     infinite: true,
     centerPadding: "20px",
@@ -52,14 +52,13 @@ const Projects = () => {
 
 
   return (
-    <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
+    <div id='projects' className='w-full md:h-screen p-2'>
+      <div className='max-w-[1240px] m-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-primary textShadow'>
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        {/* <div className='grid md:grid-cols-2 gap-8'> FOR GRID*/}
-        <div className='mx-4 p-3'>
+        <div className='mx-4'>
           <Slider {...confCarousel}>
             {ProjectsData.map((project, index) => (
               <ProjectItem

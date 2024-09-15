@@ -135,7 +135,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>My Portfolio hehe.</p>
+              <p className='w-[85%] md:w-[90%] py-4'>My Portfolio</p>
             </div>
           </div>
           {/* MENU */}
@@ -144,16 +144,16 @@ const Navbar = () => {
               <Link href='/'>
                 <li onClick={() => setNav(false)}className='py-4 text-sm'>Home</li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/?about=about'>
                 <li onClick={() => setNav(false)}className='py-4 text-sm'>About</li>
               </Link>
-              <Link href='/#skills'>
+              <Link href='/?skills=skills'>
                 <li onClick={() => setNav(false)}className='py-4 text-sm'>Skills</li>
               </Link>
-              <Link href='/#projects'>
+              <Link href='/?projects=projects'>
                 <li onClick={() => setNav(false)}className='py-4 text-sm'>Projects</li>
               </Link>
-              <Link href='/#contact'>
+              <Link href='/?contact=contact'>
                 <li onClick={() => setNav(false)}className='py-4 text-sm'>Contact</li>
               </Link>
             </ul>

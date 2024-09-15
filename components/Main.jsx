@@ -7,9 +7,9 @@ const Main = () => {
 
     // data roles typewriter effect
     const roles = [
-        "A Student",
-        "Backend Enthusiast",
+        "Backend Developer",
         "Frontend Developer",
+        "DevOps Engineer Enthusiast",
         "ChatGPT Prompter"
     ]
 
@@ -32,8 +32,8 @@ const Main = () => {
                     }}
                 />
                 <p className='py-4 text-whiteSec sm:max-w-[70%] m-auto'>
-                    I&apos;m focused on building responsive front-end web applications
-                    integrating back-end technologies.
+                    I&apos;m focused on building software according to user needs,
+                    especially web-services.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <ContactIcon/>

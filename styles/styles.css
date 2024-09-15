@@ -6,6 +6,12 @@
   text-shadow: 1px 1px 1.5px rgb(237, 240, 241), 0 0 0.1em #edf0f1;
 }
 
+/* carousel */
+.slider-container {
+  @apply h-full items-center;
+}
+
+
 /* carousel dots */
 .slick-dots li button::before {
   color: rgb(237, 240, 241) !important;
