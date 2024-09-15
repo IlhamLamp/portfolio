@@ -32,7 +32,7 @@ const Main = () => {
                     }}
                 />
                 <p className='py-4 text-whiteSec sm:max-w-[70%] m-auto'>
-                    I&apos;m focused on building software according to user needs,
+                    I&apos;m focused on building web-app according to user needs,
                     especially web-services.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
