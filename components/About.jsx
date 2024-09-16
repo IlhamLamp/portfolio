@@ -20,10 +20,10 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-primary textShadow'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-whiteSec'>
-                    Hello! my name is Ilham Nur Utomo, usually called ilham. I was born in Purbalingga on May 24, 2002 ({myAge} years old). I live in Bekasi and I just graduated from Universitas Pelita Bangsa with a bachelor&apos;s degree in informatics engineering. I&apos;m currently working part-time as a programming teacher, while also sharpening my programming skills. 
+                    Hello! my name is Ilham Nur Utomo, usually called ilham. I was born in Purbalingga on May 24, 2002 ({myAge} years old). I live in Bekasi and I just graduated from Universitas Pelita Bangsa with a bachelor&apos;s degree in informatics engineering. I&apos;m currently working part-time as a programming teacher, while also sharpening my programming, communication, and problem-solving skills. 
                 </p>
                 <p className='py-2 text-whiteSec'>
-                    I Have an interest in a career as a Back-end Developer (Node.Js and Golang). I am a diligent person and often look for new opportunities to develop.
+                    I Have an interest in a career as a Back-end Developer (Node.Js or Golang). I am a diligent person and often look for new opportunities to develop.
                 </p>
                 <div className='lg:w-1/2 flex flex-row gap-6 text-center md:text-left'>
                     {/* TIMELINE */}

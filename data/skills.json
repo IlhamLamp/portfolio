@@ -116,52 +116,52 @@
     },
     {
         "id": 24,
-        "src": "https://skillicons.dev/icons?i=python",
-        "alt": "Python"
-    },
-    {
-        "id": 25,
         "src": "https://skillicons.dev/icons?i=mysql",
         "alt": "Mysql"
     },
     {
-        "id": 26,
+        "id": 25,
         "src": "https://skillicons.dev/icons?i=postgresql",
         "alt": "Postgresql"
     },
     {
-        "id": 27,
+        "id": 26,
         "src": "https://skillicons.dev/icons?i=mongodb",
         "alt": "Mongodb"
     },
     {
-        "id": 28,
+        "id": 27,
         "src": "https://skillicons.dev/icons?i=redis",
         "alt": "Redis"
     },
     {
-        "id": 29,
+        "id": 28,
         "src": "https://skillicons.dev/icons?i=firebase",
         "alt": "Firebase"
     },
     {
-        "id": 30,
+        "id": 29,
         "src": "https://skillicons.dev/icons?i=postman",
         "alt": "Postman"
     },
     {
-        "id": 31,
+        "id": 30,
         "src": "https://skillicons.dev/icons?i=rabbitmq",
         "alt": "Rabbitmq"
     },
     {
-        "id": 32,
+        "id": 31,
         "src": "https://skillicons.dev/icons?i=docker",
         "alt": "Docker"
     },
     {
-        "id": 33,
+        "id": 32,
         "src": "https://skillicons.dev/icons?i=git",
+        "alt": "Git"
+    },
+    {
+        "id": 33,
+        "src": "https://skillicons.dev/icons?i=github",
         "alt": "Github"
     },
     {
